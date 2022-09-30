@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './App.css';
+import React from "react";
+import Contact from './Contact';
+import About from './About';
+import Home from './Home';
+
+import{
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
+
+
+function App(){
+  return <Router>
+
+    <div className='up'>Скидка 40% на все товары после 19.00</div>
+    <nav>
+      
+<div className='l'>
+      <Link to="/" className='link' id="logo">Корица<img  src="https://img.icons8.com/color/344/wheat.png" width="40px"/></Link>
+     <h6>Булочная</h6>
+      </div>
+    <div className='p'>
+     <Link to="/about" className='link' id ="pages">О нас</Link>
+       <Link to="/contact" className='link' id ="pages">Контакты</Link>
+       
+       
+       </div>
+    </nav>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/about" element={<About/>}/>
+      <Route path="/contact" element={<Contact/>}/>
+
+    </Routes>
+    </Router> 
+    
 }
 
 export default App;

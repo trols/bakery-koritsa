@@ -1,38 +1,411 @@
-.App {
+body{
+  background-color: #FFF5E4;
+}
+/*ПРОДУКЦИЯ*/
+.heading{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  color: #682C0E;
+
+   }
+   /*див всех шести кнопок*/
+   .sixbuttons{
+    display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  
+  }
+  /*каждая кнопка*/
+  .everybutton{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    width: 120px;
+    height: 65px;
+    font-size: 16px;
+    border-radius: 10px;
+    
+    }
+    /*цвета кнопок*/
+    .one{
+      background-color: #F5C597;
+      border: 5px solid  #F5C597;
+    } 
+    .one:hover{
+      background-color: white;
+      border: 5px solid  #C24914;
+      color: #682C0E;
+      }
+    .two{
+      background-color: #F6E6BC;
+      border: 5px solid  #F6e6bc;
+      color: #682C0E;
+      
+    }
+    .two:hover{
+      background-color: white;
+      border: 5px solid  #C24914;
+      color: #682C0E;
+      }
+    .three{
+      background-color: #C5E8BF;
+      border: 5px solid  #C5E8BF;
+      color: #682C0E;
+      }
+    .three:hover{
+      background-color: white;
+      border: 5px solid  #C24914;
+      color: #682C0E;
+      }
+    .four{
+      background-color: #BDE4E4;
+      border: 5px solid  #BDE4E4;
+      color: #682C0E;
+      }
+      .four:hover{
+        background-color: white;
+        border: 5px solid  #C24914;
+        color: #682C0E;
+        }
+    .five{
+      background-color: #F5DCDC;
+      border: 5px solid  #F5DCDC;
+      color: #682C0E;
+      }
+      .five:hover{
+        background-color: white;
+        border: 5px solid  #C24914;
+        color: #682C0E;
+        }
+    .six{
+      background-color: #F1EFC7;
+      border: 5px solid  #F1EFC7;
+      color: #682C0E;
+      }
+    .six:hover{
+      background-color: white;
+      border: 5px solid  #C24914;
+      color: #682C0E;
+      }
+
+/*return для второй страницы*/
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin:  0 auto;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*каждая карточка товара*/
+.product-card{
+  flex: 30%;
+   margin: 10px;
+   background-color: white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+    /*текст в карточках*/
+     h3,h4{
+      font-size: 16px;
+      font-family: 'Inter', sans-serif;
+      }
+      /*блок + - корзина*/
+      .sum{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        /*кнопкa +  */
+        .plus{
+          border: 1px solid #C24914;
+          font-size: 20px;
+          width: 25px;
+          height: 25px;
+          background-color: white;
+         }
+      /*цифра рыжая*/
+      .counter{
+        color: #C24914;
+        font-size: 25px;
+        margin: 10px;
+      }
+      /*иконка корзина*/
+        .basket{
+          margin-left: 22px;
+        }
+        /*общий див первой страницы*/
+.firstpage{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+position: relative;
+width: 100%;
+}
+/*див фотографии*/
+.pict{
+width: 100%;
+height: auto;
+backdrop-filter: blur(50px);
+}
+/*див кнопки*/
+.but{
+position: absolute;
+top: 75%;
+padding: 20px;
+background-color: #E94D09;
+color: aliceblue;
+border: none;
+font-size: 20px;
+border-radius: 5px;
+font-family: 'Inter', sans-serif;
+font-weight: bold;
+cursor: pointer;
+}
+.but:hover{
+background-color: white;
+color: #C24914;
+}
+/*див заголовка*/
+.mainhead{
+  position: absolute;
+  top: 5%;
+  font-size: 60px;
+  font-family: 'Cormorant Infant';
+  color: white;
+  flex-wrap: wrap;
+}
+/*див текста*/
+.mainheadtwo{
+  position: absolute;
+  top: 28%;
+  font-size: 30px;
+  font-family: 'Cormorant Infant';
+  flex-wrap: wrap;
   color: white;
 }
+/*коричневая линия сверху*/
+.up{
+  display: flex;
+  background-color: #682C0E;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 2px;
 
-.App-link {
-  color: #61dafb;
+}
+nav{
+  height: 100px;
+  display: flex;
+ align-items: center;
+  background-color: white;
+  flex-wrap: wrap;
+  }
+.link{
+  text-decoration: none;
+  color: #682C0E;
+  font-size: 40px;
+  font-weight: lighter;
+  font-family: 'Inter', sans-serif;
+  flex-wrap: wrap;
+  
+}
+/*Корица*/
+#logo{
+  color: #E94D09;
+  font-family: 'Cormorant Infant';
+  font-weight: bolder;
+  }
+  /*Корица и колосок*/
+  .l{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: auto;
+  }
+  /*Булочная*/
+  h6{
+    margin-top: 0px;
+    font-family: 'Inter';
+    color: #682C0E;
+  }
+#pages{
+  margin: 10px;
+font-size: 30px;
+}
+/*располоджение текста на странице О нас*/
+.about-us{
+  text-align: center;
+  font-family: 'Inter';
+}
+/*цвет слова Корица в тексте*/
+span{
+  color: #C24914;
+}
+/*Кнопки переключения фото*/
+.buttonLeftRight{
+  border: none;
+  background-color: #FFF5E4;
+  align-items: center;
+  margin-top: 10px;
+}
+#text{
+  font-size: 25px;
+  font-weight: bolder;
+  color: red;
+}
+/*весь коричневый низ*/
+.footer{
+  background-color: #682C0E;
+  height: 485px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+/*низ слева*/
+.down{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+letter-spacing: 2px;
+
+}
+/*колосок*/
+.foot-logo{
+  color: #E94D09;
+  font-family: 'Cormorant Infant';
+  font-weight: bolder;
+  font-size: 35px;
+  margin-bottom: 0px;
+  /**/
+}
+/*булочная*/
+#bulka{
+  color: #FFF5E4;
+  margin-top: 0px;
+  font-family: 'Inter';
+  margin-left: 50px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/*подписаться на рассылку*/
+h5{
+  color: #FFF5E4;
+  font-family: 'Inter';
+  font-size: 35px;
+  font-weight: lighter;
+  flex-wrap: wrap;
+  align-self: center;
+  margin-top: 10px;
+}
+/*низ справа*/
+.social-share{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+
+  .social-share-icon{
+    margin: 25px;
+    }
+     form{
+display: flex;
+flex-direction: column;
+
   }
-  to {
-    transform: rotate(360deg);
+  input{
+    padding: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+  
+  .btn-footer{
+padding: 10px;
+background-color: #E94D09;
+color: aliceblue;
+border: none;
+font-size: 16px;
+border-radius: 5px;
+font-family: 'Inter', sans-serif;
+font-weight: bold;
+width: 112px;
+align-self: center;
   }
+  .right{
+    color: white;
+    font-family: 'Inter';
+    font-weight: lighter;
+    margin-top: 30px;
+    align-self: center;
+   font-size: 15px;
+}
+.btn-footer:hover{
+  background-color: #FFB740;
+  color:  #E94D09;
+  font-weight: bolder;
+
+
+}
+.page-contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.but-contact{
+  background-color: #E94D09;
+color: aliceblue;
+border: none;
+font-size: 15px;
+border-radius: 5px;
+font-family: 'Inter', sans-serif;
+font-weight: bold;
+cursor: pointer;
+margin: 30px;
+align-self: center;
+padding: 10px;
+}
+.head-contact{
+  align-self: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  color: #682C0E;
+}
+.par-contact{
+  align-self: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  color: #E94D09;
+}
+#name-contact{
+  border: 1px solid #E94D09;
+  padding: 5px;
+  font-size: 17px;
+  font-family: 'Inter', sans-serif;
+  
+}
+.more-less{
+  border: none;
+  color: #E94D09;
+  background-color: #FFF5E4;
+}
+.par-foot{
+  text-align: center;
+  color: #682C0E;
+  font-size: 15px;
+}
+.top-icon{
+  margin-top: 15px;
+}
+.mail{
+  color: #682C0E;
 }
