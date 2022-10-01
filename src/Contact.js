@@ -16,7 +16,7 @@ function Contact(){
              <div className='social-share'>
 
 <div className="top-icon">
-    <a href="https://www.vk.com/share.php?url=" target="_blank" className='social-share-icon'>
+    <a href="https://www.vk.com/share.php?url=" target="_blank=" className='social-share-icon'>
   <img src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0iI2ZmZjVlNCI+PC9wYXRoPjxnIGZpbGw9IiNjMjQ5MTQiPjxwYXRoIGQ9Ik0xNjMuOTg0MDgsMTI2LjE0MDVjLTYuNDM5MjUsLTExLjU4ODUgLTIzLjAyNjUsLTI1LjUxMzMzIC0yOS44NzQyNSwtMzEuNTcyNzVjLTEuODc0MDgsLTEuNjU5MDggLTIuMDc0NzUsLTQuNTI5MzMgLTAuMzY5MDgsLTYuMzY0YzEzLjA2ODQyLC0xNC4wNDMwOCAyMy41MjEsLTMwLjE3ODgzIDI3LjExODY3LC0zOS45MjkwOGMxLjU4NzQyLC00LjMwNzE3IC0xLjY5ODUsLTguODU4IC02LjMyODE3LC04Ljg1OGgtMTMuNDQ4MjVjLTQuNDMyNTgsMCAtNy4wMjY5MiwxLjU5MSAtOC4yNjMxNyw0LjEyNDQyYy0xMC44NjEwOCwyMi4yNTYwOCAtMjAuMTc3NzUsMzEuODg4MDggLTI2LjY5OTQyLDM3LjUxNzVjLTMuNjUxNDIsMy4xNTMzMyAtOS4zNDUzMywwLjU0MTA4IC05LjM0NTMzLC00LjI1N2MwLC05LjI0NSAwLC0yMS4xOTU0MiAwLC0yOS42N2MwLC00LjExMDA4IC0zLjM2MTE3LC03LjQzNTQyIC03LjUwNzA4LC03LjQzNTQybC0yNC41NjczMywtMC4yNzk1Yy0zLjA5MjQyLDAgLTQuODU5LDMuNTAwOTIgLTMuMDAyODMsNS45NTU1bDQuMDU2MzMsNS44MjI5MmMxLjUyNjUsMi4wMTc0MiAyLjM1MDY3LDQuNDcyIDIuMzUwNjcsNi45OTEwOGwtMC4wMjE1LDI2LjIyMjgzYzAsNC41NjE1OCAtNS41MjkwOCw2Ljc5MDQyIC04LjgxMTQyLDMuNTk0MDhjLTExLjEwNDc1LC0xMC44MTQ1IC0yMC43NDAzMywtMzIuODk4NTggLTI0LjIwOSwtNDMuNDU4NjdjLTEuMDAzMzMsLTMuMDU2NTggLTMuODY2NDIsLTUuMTIwNTggLTcuMTEyOTIsLTUuMTI3NzVsLTEzLjI0NzU4LC0wLjAzMjI1Yy00Ljk3MDA4LDAgLTguNjAzNTgsNC43MTIwOCAtNy4yNTI2Nyw5LjQ1NjQyYzEyLjEwNDUsNDIuNDg3NTggMzYuOTQwNTgsODIuOTA3NTggODEuMjAxOTIsODcuMjljNC4zNjA5MiwwLjQzIDguMTIzNDIsLTMuMDgxNjcgOC4xMjM0MiwtNy40MjgyNXYtMTMuNzgxNWMwLC0zLjk1MjQyIDMuMDk5NTgsLTcuMzQ5NDIgNy4wODQyNSwtNy40NDk3NWMwLjEzOTc1LC0wLjAwMzU4IDAuMjc5NSwtMC4wMDM1OCAwLjQxOTI1LC0wLjAwMzU4YzExLjcwNjc1LDAgMjQuODE4MTcsMTcuMDM4NzUgMjkuNDA0ODMsMjUuMDA4MDhjMS4zMTg2NywyLjI5MzMzIDMuNzg0LDMuNjkwODMgNi40NSwzLjY5MDgzaDE3LjgxOTkyYzUuMTk5NDIsMCA4LjUzNTUsLTUuNTE0NzUgNi4wMzA3NSwtMTAuMDI2MTd6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4=" width='25px' height='25px'/>
  </a>
 <a href="https://api.whatsapp.com/" target="_blank" className='social-share-icon' >
@@ -51,11 +51,11 @@ function Contact(){
       
       <p className="par-contact">Форма обратной связи</p>
       
-        <input id='name-contact' placeholder="Ваше имя" type="text" tabindex="1" required />
+        <input id='name-contact' placeholder="Ваше имя" type="text" required />
       
-        <input id='name-contact' placeholder="Введите ваш Email" type="email" tabindex="2"  name="email" required/>
+        <input id='name-contact' placeholder="Введите ваш Email" type="email"  name="email" required/>
       
-        <textarea id='name-contact' placeholder="Напишите сообщение..." type="text" tabindex="3"  name="message" required></textarea>
+        <textarea id='name-contact' placeholder="Напишите сообщение..." type="text" name="message" required></textarea>
       
         <button className='but-contact' name="submit" type="submit" id="contact-submit"> Отправить </button>
       </form>

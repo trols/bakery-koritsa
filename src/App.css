@@ -152,7 +152,7 @@ backdrop-filter: blur(50px);
 .but{
 position: absolute;
 top: 75%;
-padding: 20px;
+padding: 14px;
 background-color: #E94D09;
 color: aliceblue;
 border: none;
@@ -170,7 +170,7 @@ color: #C24914;
 .mainhead{
   position: absolute;
   top: 5%;
-  font-size: 60px;
+  font-size: 26px;
   font-family: 'Cormorant Infant';
   color: white;
   flex-wrap: wrap;
@@ -179,10 +179,11 @@ color: #C24914;
 .mainheadtwo{
   position: absolute;
   top: 28%;
-  font-size: 30px;
+  font-size: 24px;
   font-family: 'Cormorant Infant';
   flex-wrap: wrap;
   color: white;
+  text-align: center;
 }
 /*коричневая линия сверху*/
 .up{
@@ -197,7 +198,7 @@ color: #C24914;
 
 }
 nav{
-  height: 100px;
+  height: 116px;
   display: flex;
  align-items: center;
   background-color: white;
@@ -233,12 +234,13 @@ nav{
   }
 #pages{
   margin: 10px;
-font-size: 30px;
+font-size: 21px;
 }
 /*располоджение текста на странице О нас*/
 .about-us{
   text-align: center;
   font-family: 'Inter';
+  font-size: 12px;
 }
 /*цвет слова Корица в тексте*/
 span{
@@ -295,11 +297,13 @@ letter-spacing: 2px;
 h5{
   color: #FFF5E4;
   font-family: 'Inter';
-  font-size: 35px;
+  font-size: 30px;
   font-weight: lighter;
   flex-wrap: wrap;
   align-self: center;
   margin-top: 10px;
+  text-align: center;
+  
 }
 /*низ справа*/
 .social-share{
