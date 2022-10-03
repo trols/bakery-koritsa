@@ -15,12 +15,12 @@ import{
 
 function App(){
   return <Router>
-
+    
     <div className='up'>Скидка 40% на все товары после 19.00</div>
     <nav>
       
 <div className='l'>
-      <Link to="/" className='link' id="logo">Корица<img  src="https://img.icons8.com/color/344/wheat.png" width="40px"/></Link>
+      <Link to="/" className='link' id="logo">Корица</Link>
      <h6>Булочная</h6>
       </div>
     <div className='p'>
