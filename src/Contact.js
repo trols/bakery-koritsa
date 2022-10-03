@@ -15,7 +15,20 @@ function Contact(){
       <div>
         <div className="page-contact">
              <div className='social-share'>
+<div className="top-icon">
 
+<a href="https://www.vk.com/share.php?url=" className="social-share-icon" target="_blank" rel="noreferrer">
+<img src="https://img.icons8.com/metro/344/vk-com--v1.png" width="25px" height="25px" alt="icons"/>
+</a>
+<a href="https://api.whatsapp.com/" className="social-share-icon" target="_blank" rel="noreferrer">
+<img src="https://img.icons8.com/ios-filled/344/telegram-app.png" width="25px" height="25px" alt="icons"/>
+</a>
+<a href="https://t.me/share" className="social-share-icon" target="_blank" rel="noreferrer">
+<img src="https://img.icons8.com/ios-glyphs/344/whatsapp.png" width="25px" height="25px" alt="icons"/>
+</a>
+
+
+  </div>
 
      </div>
 <p className="head-contact">Контакты</p>

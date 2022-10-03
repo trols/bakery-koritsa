@@ -418,3 +418,8 @@ padding: 10px;
 .mail{
   color: #682C0E;
 }
+@media all and (max-width : 350px) {
+  .up{
+    font-size: 15px;
+  }
+  }

@@ -20,7 +20,7 @@ function App(){
     <nav>
       
 <div className='l'>
-      <Link to="/" className='link' id="logo">Корица</Link>
+      <Link to="/" className='link' id="logo">Корица<img src="https://img.icons8.com/color/344/wheat.png" width="40px" alt="man"/></Link>
      <h6>Булочная</h6>
       </div>
     <div className='p'>
