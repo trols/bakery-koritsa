@@ -33,6 +33,7 @@ body{
     .one{
       background-color: #F5C597;
       border: 5px solid  #F5C597;
+      color: #682C0E;
     } 
     .one:hover{
       background-color: white;
@@ -124,6 +125,8 @@ body{
           width: 25px;
           height: 25px;
           background-color: white;
+          color: #682C0E;
+          align-self: center;
          }
       /*цифра рыжая*/
       .counter{

@@ -8,7 +8,7 @@ export const dataContact=[
     },
     
         {
-        id: 3,
+        id: 2,
         head: 'ОТДЕЛ ПЕРСОНАЛА',
         email: " Электронная почта koritsa-staff@mail.ru",
         tel: " Телефон 8(812)000-00-00",
