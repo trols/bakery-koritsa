@@ -2,7 +2,7 @@ import React from "react";
 function Buttons({filteredProd}){
     return(
         <div className="sixbuttons">
-<button className="everybutton one" onClick={()=>filteredProd("white")}>Изделия из пшеницы</button>
+<button className="everybutton one" onClick={()=>filteredProd("white")}>Пшеничный хлеб</button>
 <button className="everybutton two" onClick={()=>filteredProd("black")}>Ржаной хлеб</button>
 <button className="everybutton three" onClick={()=>filteredProd("bake")}>Выпечка</button>
 <button className="everybutton four" onClick={()=>filteredProd("cake")}>Пирожные</button>
