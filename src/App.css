@@ -201,10 +201,15 @@ color: #C24914;
 
 }
 nav{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
   height: 116px;
   display: flex;
  align-items: center;
-  background-color: white;
+ background: rgb(237,181,88);
+ background: linear-gradient(0deg, rgba(237,181,88,1) 0%, rgba(242,220,198,1) 38%, rgba(255,255,255,1) 65%);
   flex-wrap: wrap;
   }
 .link{
