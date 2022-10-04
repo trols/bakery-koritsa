@@ -492,11 +492,11 @@ font-size: 40px;
       .up{
         font-size: 14px;
       }
-      .mainhead{
+      h1.mainhead{
         font-size: 26px;
       }
       .mainheadtwo{
-        font-size:20px;
+        font-size: 20px;
       }
       #text{
         font-size: 22px;
