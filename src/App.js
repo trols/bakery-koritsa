@@ -16,7 +16,7 @@ import{
 function App(){
   return <Router>
     
-    <div className='up'>Скидка 40% на все товары после 19.00</div>
+    <div className='up'><p className='up-white'>Скидка 40% на все товары после 19.00</p></div>
     <nav>
       
 <div className='l'>

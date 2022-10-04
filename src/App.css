@@ -120,7 +120,7 @@ body{
         }
         /*кнопкa +  */
         .plus{
-          border: 1px solid #C24914;
+          border: none;
           font-size: 20px;
           width: 25px;
           height: 25px;
@@ -173,7 +173,7 @@ color: #C24914;
 .mainhead{
   position: absolute;
   top: 5%;
-  font-size: 26px;
+  font-size: 46px;
   font-family: 'Cormorant Infant';
   color: white;
   flex-wrap: wrap;
@@ -182,7 +182,7 @@ color: #C24914;
 .mainheadtwo{
   position: absolute;
   top: 28%;
-  font-size: 24px;
+  font-size: 40px;
   font-family: 'Cormorant Infant';
   flex-wrap: wrap;
   color: white;
@@ -192,7 +192,7 @@ color: #C24914;
 .up{
   display: flex;
   background-color: #682C0E;
-  height: 35px;
+  height: 40px;
   justify-content: center;
   align-items: center;
   color: white;
@@ -237,7 +237,7 @@ nav{
   }
 #pages{
   margin: 10px;
-font-size: 21px;
+font-size: 35px;
 }
 /*располоджение текста на странице О нас*/
 .about-us{
@@ -386,14 +386,14 @@ padding: 10px;
 }
 .head-contact{
   align-self: center;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   font-family: 'Inter', sans-serif;
   color: #682C0E;
 }
 .par-contact{
   align-self: center;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: bold;
   font-family: 'Inter', sans-serif;
   color: #E94D09;
@@ -401,7 +401,7 @@ padding: 10px;
 #name-contact{
   border: 1px solid #E94D09;
   padding: 5px;
-  font-size: 17px;
+  font-size: 20px;
   font-family: 'Inter', sans-serif;
   
 }
@@ -421,8 +421,134 @@ padding: 10px;
 .mail{
   color: #682C0E;
 }
-@media all and (max-width : 350px) {
+@media all and (max-width : 360px) {
   .up{
-    font-size: 15px;
+    font-size: 14px;
+  }
+  .mainhead{
+    font-size: 12px;
+  }
+  .mainheadtwo{
+    font-size: 10px;
+  }
+    #pages.link{
+font-size: 20px;
+    }
+  }
+  
+  @media all and (max-width : 820px) {
+.mainhead{
+  font-size: 46px;}
+.mainheadtwo{
+font-size: 40px;
+}
+.everybutton{
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  width: 115px;
+  height: 65px;
+  font-size: 16px;
+  border-radius: 10px;
+  }
+  .link{
+    font-size: 60px;
+  }
+  .up{
+    font-size: 24px;
+  }
+  #pages{
+    margin: 10px;
+  font-size: 40px;
   }
   }
+  @media all and (max-width: 375px){
+    .link{
+      font-size: 26px;
+    }
+    #pages{
+      font-size: 20px;
+      }
+    .up{
+      font-size: 14px;
+    }
+    .mainhead{
+      font-size: 24px;
+    }
+    .mainheadtwo{
+      font-size:18px;
+    }
+    #text{
+      font-size: 22px;
+    }
+    }
+    @media all and (max-width: 414px){
+      .link{
+        font-size: 26px;
+      }
+      #pages{
+        font-size: 20px;
+        }
+      .up{
+        font-size: 14px;
+      }
+      .mainhead{
+        font-size: 26px;
+      }
+      .mainheadtwo{
+        font-size:20px;
+      }
+      #text{
+        font-size: 22px;
+      }}
+      @media all and (max-width: 540px){
+        .link{
+          font-size: 30px;
+        }
+        #pages{
+          font-size: 25px;
+          }
+        .up{
+          font-size: 14px;
+        }
+        .mainhead{
+          font-size: 30px;
+        }
+        .mainheadtwo{
+          font-size:25px;
+        }
+        #text{
+          font-size: 22px;
+        }}
+        @media all and (max-width: 280px){
+          .link{
+            font-size: 20px;
+          }
+          #pages{
+            font-size: 18px;
+            }
+          .up{
+            font-size: 10px;
+          }
+          .mainhead{
+            font-size: 19px;
+          }
+          .mainheadtwo{
+            font-size:19px;
+          }
+          #text{
+            font-size: 18px;
+          }
+          .but{
+            font-size: 16px;
+            padding: 8px;
+            }
+            input{
+              width: 240px;
+            }
+        }
+        @media all and (max-width: 412px){
+          .mainhead{
+            font-size: 24px;
+          }
+        }
